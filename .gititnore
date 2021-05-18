@@ -1,0 +1,3 @@
+./producer/build
+./producer/.gradle
+./producer/.idea

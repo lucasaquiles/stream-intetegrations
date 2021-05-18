@@ -1,0 +1,29 @@
+{
+  "name": "SongCreated",
+  "type": "record",
+  "namespace": "dev4fun.stream",
+  "doc": "song created",
+  "fields": [
+    {
+      "name": "id",
+      "type": [
+        "long"
+      ],
+      "doc": "song"
+    },
+    {
+      "name": "title",
+      "type": [
+        "string"
+      ],
+      "doc": "song description"
+    },
+    {
+      "name": "duration",
+      "type": [
+        "long"
+      ],
+      "doc": "duration"
+    }
+  ]
+}

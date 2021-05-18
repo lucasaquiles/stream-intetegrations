@@ -1,0 +1,36 @@
+{
+  "name": "RatingCreated",
+  "type": "record",
+  "namespace": "dev4fun.stream",
+  "doc": "rating",
+  "fields": [
+    {
+      "name": "id",
+      "type": [
+        "long"
+      ],
+      "doc": "rating_id"
+    },
+    {
+      "name": "score",
+      "type": [
+        "int"
+      ],
+      "doc": "score"
+    },
+    {
+      "name": "song_id",
+      "type": [
+        "long"
+      ],
+      "doc": "song_id"
+    },
+    {
+      "name": "user_id",
+      "type": [
+        "long"
+      ],
+      "doc": "user_id"
+    }
+  ]
+}
